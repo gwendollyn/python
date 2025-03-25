@@ -3,7 +3,7 @@ mkdir python && cd python
 ```
 
 1. Selenium 是一個功能強大的工具，廣泛應用於自動化測試與網頁抓取。它允許開發者編寫腳本來模擬 User 與 Web Browser 的互動。
-- 這邊用的是 Apple M2 ARM64 架構
+- 這邊用的是 Apple M2 ARM64 架構，且已安裝brew，所以沒有辦法 `pip3 install selenium`
 ```
 python3 -m venv .
 python3 -m pip install selenium
